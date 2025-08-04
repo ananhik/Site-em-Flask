@@ -1,0 +1,503 @@
+.icones {
+
+    margin: 10px;
+}
+.footer-social-container {
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    font-family: Poppins;
+}
+.text{
+    text-align: center;
+    color: white;
+}
+.custom{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+
+
+
+/*ESTILIZAÇÃO DOS ELEMENTOS DA TELA DE REGISTRO*/
+.registrar{ 
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    justify-content: center;
+    
+}
+
+.fonteCadastrar{
+    font-family: Poppins;
+    font-size: 2.5rem;
+
+}
+.fonteDadosCadastro{
+    font-family: Poopins;
+    font-size: 1.7rem;
+}
+/*-----------------------------------------------------------*/
+.carrosel{			
+    padding: 0;
+    height: 90vh;
+}
+.ExtencaoNavbar{
+    text-align: center;
+    color: #F2C6C2;
+}
+
+.textNavbar{
+    text-align: center;
+    color: black;
+    font-family: Amatic SC;
+    font-size: 50rem;
+    
+}
+.textOpcoes{
+    font-family: Shadows Into Light;
+    font-size: 1.15rem;
+
+}
+.textoDoce{
+    text-align: center;
+}
+.textfooter{
+    text-align: center;
+    font-family: Poppins;
+}
+
+
+.imagemCustom{
+    justify-content: center;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 30px;
+}
+.azul{
+    background-color: #C9DAF8;
+}
+
+
+.lado1{
+    float: right;
+    margin-right: 15%;
+    width: 35%;
+ 
+}
+
+.lado2{
+    margin-left: 20%;
+    text-align: center;
+    
+}
+
+.tituloHistoria{
+    font-family: Amatic SC;
+    font-size: 2rem
+}
+.textoHistoria{
+    font-family: 'Poppins';
+    font-size: 1.15rem;
+}
+/*RODAPÉ DA PAGINA*/
+.rodape{
+    font-family: Amatic SC;
+    font-size: 1.5rem;
+}
+
+/*TELA DE LOGIN*/
+.back_login{
+    background: linear-gradient(to right,#9E9BDE,#FFC2DB );
+}
+.tituloLogin{
+    font-family: Amatic SC;
+    font-size: 2rem;
+}
+.parteMensagem{
+    font-family: Amatic SC;
+    font-size: 1.5rem;
+}
+.parteFormulario{
+    font-family: Amatic SC;
+    font-size: 1.5rem;
+}
+.parteBotao{
+    font-family: Amatic SC;
+    font-size: 2rem;
+}
+
+
+
+/* TELA DE REGISTRO-----------------------------------------------------------------*/
+.cascading-right {
+    margin-right: 50px;
+    margin-left: 15rem;
+  }
+
+  @media (max-width: 991.98px) {
+    .cascading-right {
+      margin-right: 0;
+    }
+  }
+/* PARTE DOS CARS-------------------------------------------------------------- */
+
+.tam{
+    display: flex;
+    width: 200px;
+}
+.tamBC{
+    display: flex;
+    width: 200px;
+}
+
+main.cards {
+    display: flex;
+    margin-left: 13%;
+    margin-right: 13%;
+    margin-top: 5%;
+}
+
+main.cards section.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: white;
+    padding: 1rem 1.5rem;
+    border-radius: 8px; /*arredonda as bordas*/
+    max-height: 472px;
+    margin-left: 55px; /*parte que "ajusta" os cards*/
+    margin-bottom: 17%;
+}
+
+
+main.cards section.card:first-child {
+    margin-left: 100;
+}
+
+/*main.cards section.card .icon {
+    width: 64px;
+    height: 64px;
+}*/
+
+main.cards section.card h3 {
+    font-size: 100%;
+    margin: 40px 0; /*aumenta os cards pra baixo*/
+}
+
+main.cards section.card span {
+    font-weight: 300;
+    max-width: 220px;/*aumenta os card pro lado*/
+    font-size: 80%;
+    margin-bottom: 16px;
+}
+
+main.cards section.card button {
+    padding: 0.5rem 1rem;
+    text-transform: uppercase;
+    border-radius: 32px;
+    border: 0;
+    cursor: pointer;
+    font-size: 80%;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 16px 0;
+}
+
+                                                     /* CARDS */
+/* ---------------------------------------------------------------------------------------------------------------- */
+/* estilização dos cards docinhos*/
+main.cards section.card.brigadeiro button {
+    background: linear-gradient(to right, #6b342b, #5C4B51);
+}
+main.cards section.card.beijinho button {
+    background: linear-gradient(to right, #bd9075, #eda27dcb);
+}
+main.cards section.card.coxinha button {
+    background: linear-gradient(to right, #e97a66, #f11f26);
+}
+main.cards section.card.brmorango button {
+    background: linear-gradient(to right, #ec55a8, #f8254c);
+}
+/* ---------------------------------------------------------------------------------------------------------------- */
+/* estilização dos cards bolo de aniversario*/
+main.cards section.card.b1 button {
+    background: linear-gradient(to right, #6e77f1, #1a3edf);
+}
+main.cards section.card.b2 button {
+    background: linear-gradient(to right, #bd9075, #f16e2ccb);
+}
+main.cards section.card.b3 button {
+    background: linear-gradient(to right, #e966d3, #c10dee);
+}
+main.cards section.card.b4 button {
+    background: linear-gradient(to right, #ec55a8, #ee1d43);
+}
+/* ---------------------------------------------------------------------------------------------------------------- */
+/* estilização dos cards bolo de casamento*/
+main.cards section.card.bolo1 button {
+    background: linear-gradient(to right, #6b342b, #5C4B51);
+}
+main.cards section.card.bolo2 button {
+    background: linear-gradient(to right, #bd9075, #eda27dcb);
+}
+main.cards section.card.bolo3 button {
+    background: linear-gradient(to right, #e97a66, #f11f26);
+}
+main.cards section.card.bolo4 button {
+    background: linear-gradient(to right, #ec55a8, #F2889B);
+}
+/*----------------------------------------------------------------------------------------------------------------
+/* estilização dos cards salgados*/
+main.cards section.card.frango button {
+    background: linear-gradient(to right, #6b342b, #5C4B51);
+}
+main.cards section.card.Pastel button {
+    background: linear-gradient(to right, #bd9075, #eda27dcb);
+}
+main.cards section.card.kibe button {
+    background: linear-gradient(to right, #e97a66, #f11f26);
+}
+main.cards section.card.empadinha button {
+    background: linear-gradient(to right, #ec55a8, #F2889B);
+}
+/* -------------------------------------------------------------------------------- */
+
+/*----------------------------------------------------------------------------------------------------------------
+/*card docinhos cor plano de fundo do card*/
+main.cards section.card.brigadeiro {
+    box-shadow: 20px 20px 50px -30px #5C4B51;
+}
+main.cards section.card.beijinho {
+    box-shadow: 20px 20px 50px -30px #F2EBBF;
+}
+main.cards section.card.coxinha {
+    box-shadow: 20px 20px 50px -30px #F06060;
+}
+main.cards section.card.brmorango {
+    box-shadow: 20px 20px 50px -30px #f5185a;
+}
+/*----------------------------------------------------------------------------------------------------------------
+/*card bolo de aniversario cor plano de fundo do card*/
+main.cards section.card.b1 {
+    box-shadow: 20px 20px 50px -30px #e61f64;
+}
+main.cards section.card.b2 {
+    box-shadow: 20px 20px 50px -30px #e4c816;
+}
+main.cards section.card.b3 {
+    box-shadow: 20px 20px 50px -30px #eb2222;
+}
+main.cards section.card.b4 {
+    box-shadow: 20px 20px 50px -30px #0ca581;
+}
+/*----------------------------------------------------------------------------------------------------------------
+/*card bolo de casamento cor plano de fundo do card*/
+main.cards section.card.bolo1 {
+    box-shadow: 20px 20px 50px -30px #2dd63b;
+}
+main.cards section.card.bolo2 {
+    box-shadow: 20px 20px 50px -30px #f5d718;
+}
+main.cards section.card.bolo3 {
+    box-shadow: 20px 20px 50px -30px #f12c2c;
+}
+main.cards section.card.bolo4 {
+    box-shadow: 20px 20px 50px -30px #f571d4;
+}
+/*----------------------------------------------------------------------------------------------------------------
+/*card salgados  cor plano de fundo do card*/
+
+main.cards section.card.frango {
+    box-shadow: 20px 20px 50px -30px #ff1346;
+}
+main.cards section.card.Pastel {
+    box-shadow: 20px 20px 50px -30px #f74214;
+}
+main.cards section.card.kibe {
+    box-shadow: 20px 20px 50px -30px #73c526;
+}
+main.cards section.card.empadinha {
+    box-shadow: 20px 20px 50px -30px #fbff13;
+}
+
+
+@media screen and (max-width: 720px) {
+    main.cards {
+        flex-direction: column;
+    }
+
+    main.cards section.card {
+        margin-left: 0;
+        margin-bottom: 32px;
+    }
+
+    main.cards section.card:last-child {
+        margin-bottom: 0;
+    }
+
+    main.cards section.card button {
+        font-size: 70%;
+    }
+}
+/* FORMULÁRIO DE ORÇAMENTO-----------------------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+.n{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Amatic SC;
+}
+.bode{
+  min-height: 100vh;
+  width: 100%;
+  background: #C1AC9C;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container{
+  width: 85%;
+  background: #fff;
+  border-radius: 6px;
+  padding: 20px 60px 30px 40px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+.container .content{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container .content .left-side{
+  width: 25%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+  position: relative;
+}
+.content .left-side::before{
+  content: '';
+  position: absolute;
+  height: 70%;
+  width: 2px;
+  right: -15px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #98857E;
+}
+.content .left-side .details{
+  margin: 14px;
+  text-align: center;
+}
+.content .left-side .details i{
+  font-size: 30px;
+  color: #6E7DEB;
+  margin-bottom: 10px;
+}
+.content .left-side .details .topic{
+  font-size: 18px;
+  font-weight: 500;
+}
+.content .left-side .details .text-one,
+.content .left-side .details .text-two{
+  font-size: 14px;
+  color: #6E7DEB;
+}
+
+
+.container .content .right-side{
+  width: 75%;
+  margin-left: 75px;
+}
+.content .right-side .topic-text{
+  font-size: 23px;
+  font-weight: 600;
+  color: #6E7DEB;
+}
+.right-side .input-box{
+  height: 50px;
+  width: 100%;
+  margin: 12px 0;
+}
+.right-side .input-box input,
+.right-side .input-box textarea{
+  height: 100%;
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  background: #F0F1F8;
+  border-radius: 6px;
+  padding: 0 15px;
+  resize: none;
+}
+.right-side .message-box{
+  min-height: 110px;
+}
+.right-side .input-box textarea{
+  padding-top: 6px;
+}
+.right-side .button{
+  display: inline-block;
+  margin-top: 12px;
+}
+.right-side .button input[type="button"]{
+  color: #fff;
+  font-size: 18px;
+  outline: none;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  background: #6E7DEB;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.button input[type="button"]:hover{
+  background: #C1AC9C;
+}
+
+@media (max-width: 950px) {
+  .container{
+    width: 90%;
+    padding: 30px 40px 40px 35px ;
+  }
+  .container .content .right-side{
+   width: 75%;
+   margin-left: 55px;
+}
+}
+@media (max-width: 820px) {
+  .container{
+    margin: 40px 0;
+    height: 100%;
+  }
+  .container .content{
+    flex-direction: column-reverse;
+  }
+ .container .content .left-side{
+   width: 100%;
+   flex-direction: row;
+   margin-top: 40px;
+   justify-content: center;
+   flex-wrap: wrap;
+ }
+ .container .content .left-side::before{
+   display: none;
+ }
+ .container .content .right-side{
+   width: 100%;
+   margin-left: 0;
+ }
+}
