@@ -1,0 +1,155 @@
+{% extends 'base.html' %}
+
+{% block conteudo %}
+<script>
+  function openPopup() {
+    window.open("/popup", "_blank", "width=500,height=500");
+  }
+</script>
+<body>
+  <br>
+    <h1 class="textoDoce">Salgados</h1>
+  <main class="cards">
+    
+    <section class="card frango">
+        <div class="icon ">
+            <img src="\static\img\D5.png" class="tam" alt="Shop here.">
+        </div>
+        <h3>Coxinha</h3>
+        <br>
+        <br>
+        <!-- Botão para acionar modal -->
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalExemplo4">
+          Leia mais
+        </button>
+      
+        <!-- Modal -->
+        <div class="modal fade" id="modalExemplo4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Coxinha</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                Para a coxinha, o recheio é preparado primeiro, geralmente com frango desfiado, temperos e outros ingredientes a gosto. Em seguida, a massa é feita com farinha de trigo, água, óleo e sal, e é modelada em formato de coxinha. A coxinha é então recheada com o recheio de frango e frita ou assada.
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    
+        
+    </section>
+      <section class="card Pastel">
+          <div class="icon ">
+              <img src="\static\img\D6.png" class="tam" alt="Shop here.">
+          </div>
+          <h3>Pastel de milho</h3>
+          <br>
+          <br>
+          <!-- Botão para acionar modal -->
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalExemplo5">
+            Leia mais
+          </button>
+        
+          <!-- Modal -->
+          <div class="modal fade" id="modalExemplo5" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Pastel</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  Para o pastelzinho, a massa é feita com farinha de trigo, água e sal, e é aberta em uma superfície plana. O recheio pode ser de carne, queijo, frango, palmito, entre outros ingredientes, e é colocado sobre a massa aberta. A massa é então fechada, geralmente em formato de meia lua, e é frita até que fique crocante
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      
+      </section>
+      <section class="card kibe">
+          <div class="icon ">
+              <img src="\static\img\D7.png" class="tam" alt="About us.">
+          </div>
+          <h3>kibe</h3>
+          <br>
+          <br>
+          <!-- Botão para acionar modal -->
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalExemplo6">
+            Leia mais
+          </button>
+        
+          <!-- Modal -->
+          <div class="modal fade" id="modalExemplo6" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Kibe</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  Para o kibe, a massa é feita com trigo para quibe, água e sal, e é misturada com carne moída, cebola, hortelã e outros temperos. A massa é então modelada em formato de kibe, frita ou assada até que fique crocante por fora e macia por dentro.
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      
+      </section>
+      <section class="card empadinha">
+        <div class="icon ">
+            <img src="\static\img\D8.png" class="tam" alt="About us.">
+        </div>
+        <h3>Empadinha</h3>
+        <br>
+        <br>
+        <!-- Botão para acionar modal -->
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalExemplo7">
+          Leia mais
+        </button>
+      
+        <!-- Modal -->
+        <div class="modal fade" id="modalExemplo7" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Brigadeiro</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                Para a empada, a massa é feita com farinha de trigo, manteiga, água e sal, e é modelada em formato de empada. O recheio pode variar, mas geralmente é composto de carne moída, frango desfiado, palmito, queijo, entre outros ingredientes. A empada é então assada até que a massa esteja dourada.
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    
+    </section>
+    <script src="templates\js\popup.js"></script>
+  </main>
+</body>
+
+{% endblock conteudo %}

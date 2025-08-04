@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+{% block conteudo %}
+<h2 style="text-align: center;">Orçamentos</h2>
+<hr>
+<a class="btn btn-outline-dark" href="{{url_for('cria_orcamento')}}"  style="background-color: #F2C6C2" role="button">Adcionar Orçamentos</a>
+<!-- <a href="" class="btn btn-secondary">Adicionar Orçamentos	</a> -->
+<br><br>
+<table class="table table-bordered table-hover">
+	<thead class="table-dark">
+	    <tr>
+	      <th scope="col">Id</th>
+	      <th scope="col">Nome</th>
+          <th scope="col">Celular</th>
+          <th scope="col">Data</th>
+          <th scope="col">Hora</th>
+	      <th scope="col">Descrição</th>
+	    </tr>
+  </thead>
+  <tbody>
+	{% for orcamento in orcamentos %}
+		<tr>
+			<td>{{orcamento.id}}</td>
+			<td>{{orcamento.nome}}</td>
+			<td>{{orcamento.celular}}</td>
+            <td>{{orcamento.data}}</td>
+            <td>{{orcamento.hora}}</td>
+			<td>{{orcamento.descricao}}</td>
+			<td>
+				<a href="{{orcamento.id}}/remove_orcamento" onclick="return confirm('Deseja excluir esse registro?')" class="btn btn-danger btn-xs">Excluir</a>
+			</td>
+		</tr>
+	{% endfor %}
+	
+  </tbody>
+</table>
+{% endblock conteudo %}
