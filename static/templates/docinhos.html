@@ -1,0 +1,151 @@
+{% extends 'base.html' %}
+
+{% block conteudo %}
+
+<body>
+  <br>
+    <h1 class="textoDoce">Docinhos</h1>
+  <main class="cards">
+      <section class="card brigadeiro">
+          <div class="icon ">
+              <img src="\static\img\1.png" class="tam" alt="Contact us.">
+          </div>
+          <h3>Brigadeiro</h3>
+          <br>
+          <br>
+          <!-- Botão para acionar modal -->
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalExemplo">
+            Leia mais
+          </button>
+        
+          <!-- Modal -->
+          <div class="modal fade" id="modalExemplo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Brigadeiro</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  Começando com o Brigadeiro, preparamos com muito carinho utilizando ingredientes de alta qualidade, como leite condensado, manteiga e chocolate em pó. Nós cozinhamos a mistura em fogo baixo até atingir a consistência ideal, depois deixamos esfriar para poder enrolar..
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      
+
+
+
+
+
+      <section class="card beijinho">
+          <div class="icon ">
+              <img src="\static\img\4.png" class="tam" alt="Shop here.">
+          </div>
+          <h3>Beijinho</h3>
+          <br>
+          <br>
+          <!-- Botão para acionar modal -->
+          <button type="button" id="botao"class="btn btn-primary" data-toggle="modal" data-target="#modalExemplo1">
+            Leia mais
+          </button>
+        
+          <!-- Modal -->
+          <div class="modal fade" id="modalExemplo1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Beijinho</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  temos o Beijinho, outro doce tradicional muito amado por todos. Preparamos com leite condensado, coco ralado e manteiga, misturamos tudo em uma panela e cozemos em fogo baixo até ficar na consistência perfeita para enrolar..
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+      </section>
+      <section class="card coxinha">
+          <div class="icon ">
+              <img src="\static\img\2.png" class="tam" alt="About us.">
+          </div>
+          <h3>Coxinha de morango</h3>
+          <br>
+          <br>
+                    <!-- Botão para acionar modal -->
+                    <button type="button" id="botao"class="btn btn-primary" data-toggle="modal" data-target="#modalExemplo2">
+                      Leia mais
+                    </button>
+                  
+                    <!-- Modal -->
+                    <div class="modal fade" id="modalExemplo2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                      <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Coxinha de Ninho</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+                          <div class="modal-body">
+                            Já a Coxinha de Ninho com Morango é um doce muito especial, feito com leite ninho, leite condensado e morangos frescos. Depois de prepararmos a massa e o recheio, moldamos delicadamente as coxinhas e decoramos cada uma delas com um pedaço de morango.
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    
+      </section>
+      <section class="card brmorango">
+        <div class="icon ">
+            <img src="\static\img\3.png" class="tam" alt="About us.">
+        </div>
+        <h3>Brigadeiro de morango</h3>
+        <br>
+        <br>
+                  <!-- Botão para acionar modal -->
+                  <button type="button" id="botao"class="btn btn-primary" data-toggle="modal" data-target="#modalExemplo3">
+                    Leia mais
+                  </button>
+                
+                  <!-- Modal -->
+                  <div class="modal fade" id="modalExemplo3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">Brigadeiro de morango</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          O Brigadeiro de Morango é uma variação do tradicional brigadeiro, feito com leite condensado, chocolate branco e polpa de morango. É uma opção deliciosa para quem adora um sabor mais frutado nos doces.
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+        
+    </section>
+  </main>
+</center>
+</body>
+
+
+{% endblock conteudo %}

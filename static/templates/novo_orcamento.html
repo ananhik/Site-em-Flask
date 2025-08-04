@@ -1,0 +1,76 @@
+{% extends 'base.html' %}
+{% block conteudo %}
+<body class="n bode">
+    <br>
+    <br>
+    <div class="container ">
+      <div class="content">
+        <div class="right-side">
+		
+		<h2 class="topic-text"style="text-align: center;">Adicionar Novo Orçamento</h2>
+		<hr>
+		{%- for mensagem in get_flashed_messages()  %}
+			<div class="alert alert-danger">
+				{{mensagem}}
+			</div>
+		{%- endfor %}
+		<p>
+            Aqui Você pode realizar seu pedido, apenas colocando nome e email, entraremos em contato!</p>
+		<form action="{{url_for('cria_orcamento')}}" method="POST" class="form-control">
+			<label>Nome</label>
+			<input class="form-control" type="text" name="nome" placeholder="Nome" >
+			<label>Celular</label>
+			<input class="form-control" type="number" name="celular" placeholder="Celular" >
+			<label>Data</label>
+			<input class="form-control" type="date" name="data" placeholder="DATA" >
+			<label>Hora</label>
+			<input class="form-control" type="time" name="hora" placeholder="Hora" >
+			<label>Descrição</label>
+			<input class="form-control" type="text" name="descricao" placeholder="Descrição " >
+			<button class="btn btn-success">Adicionar</button>
+		</form>
+		<hr>
+    </div>
+</div>
+</div>
+<br>
+<br>
+<br>
+</body>
+		{% endblock conteudo %}
+
+<!-- <body class="n bode">
+    <br>
+    <br>
+    <div class="container ">
+      <div class="content">
+        <div class="right-side">
+          <div class="topic-text">Faça seu Orçamento</div>
+          <p>
+            Aqui Você pode realizar seu pedido, apenas colocando nome e email, entraremos em contato!
+          <form action="#">
+
+            <div class="input-box">
+              <input type="text" placeholder="Digite seu nome" />
+            </div>
+            <div class="input-box">
+              <input type="number" placeholder="Digite seu celular" />
+            </div>
+            <div class="input-box">
+              <input type="date" placeholder="Digite a data de entrega e horario" />
+            </div>
+            <div class="input-box message-box">
+              <textarea placeholder="Digite seu pedido"></textarea>
+            </div>
+            <div class="button">
+              <button onsubmit="myFunction()" id="adicionar" value="ADICIONAR" type="submit">Adicionar</button>
+            </div>
+
+          </form>
+        </div>
+      </div>
+    </div>
+    <br>
+    <br>
+    <br>
+  </body> -->
